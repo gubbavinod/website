@@ -6,18 +6,21 @@
 <script src="js/login.js"></script>
 </head>
 <body>
-<div class="container">
-<div>
 <h2> Demo Login Form </h2>
 <form method="post" name="Loginform" id="Loginid"/>
-<label>UserName:</label>
-<input type="text" name="username" id="user"/>
-<label>Password:</label>
-<input type="password" name="password" id="pwd"/>
-<input type="button" value="login" id="submit" onclick="validate()"/>
-<input type="button" value="Register" id="Reg" />
+	<table>
+		<tr>
+			<td><b> UserName:</b></td>
+			<td><input type="text" name="User" id="usr"></td>
+		</tr>
+		<tr>
+			<td><b> Password:1</b></td>
+			<td><input type="password" name="pwrd" id="pwd"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="submit" id="LoginId" onclick="validate()">
+		</tr>
+	</table>
 </form>
-</div>
-</div>
 </body>
 </html>
