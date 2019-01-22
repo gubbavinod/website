@@ -1,14 +1,21 @@
-container{
-	width:40%;
-	heigh:40%;
-	margin:auto;
-	background-color:#AADDAA;
+.container{
+	width:70%;
+	height:80vh;
+	margin: 0% auto;
+	background-color:#FFDDBB;
 	font-family:sans-serif;
 }
 
+.main{
+	width:50%;
+	height:60vh;
+	margin: 15% 25% 5% 25%;
+	background-color:#AADDBB;
+}
+
 h2{
-	background-color: #FEFFED;
+	margin: 10%;
 	padding: 30px 35px;
 	text-align:center;
-	border-radius: 10px 10px 0 0;
+	font-family:sans-serif;
 }
